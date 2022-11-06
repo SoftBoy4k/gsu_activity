@@ -1,0 +1,23 @@
+.menu {
+    max-width: 390px;
+    width: 100%;
+    background-color: white;
+    list-style-type: none;
+    position: absolute;
+    padding: 7% 0 3% 4.4%;
+    right: 0;
+    top: 101px;
+}
+.menu > li {
+    margin-bottom: 44px;
+}
+
+.menu > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    color: #7197F8;
+    font-size: 16px;
+}

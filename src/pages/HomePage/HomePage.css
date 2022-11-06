@@ -1,0 +1,22 @@
+.title {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 42px;
+    font-weight: bold;
+    color: #7197F8;
+    text-align: center;
+    margin-top: 201px;
+}
+
+.swipe-down {
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #7197F8;
+    margin-top: 180px;
+}
+
+.swipe-down > p {
+    margin-bottom: 22px;
+}
