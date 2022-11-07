@@ -1,6 +1,6 @@
 import { HomePageSvgSelector } from '../../pages/HomePage/HomePageSvgSelector'
 import { SVG_LOGO, SVG_MENU } from '../../const'
-import "./Header.css"
+import "./Header.scss"
 import { useState } from 'react'
 import { Menu } from '../Menu/Menu'
 import { Link } from 'react-router-dom'

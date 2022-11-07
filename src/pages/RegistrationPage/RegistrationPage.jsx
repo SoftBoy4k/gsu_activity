@@ -1,12 +1,11 @@
 import { useState } from "react"
 import { FormField } from "../../components/FormField/FormField"
 import { Header } from "../../components/Header/Header"
-import "./RegistrationPage.css"
+import "./RegistrationPage.scss"
 
 
 export const RegistrationPage = () => {
     const [regPage, setRegPage] = useState(1)
-    console.log(regPage)
     return (
         <>
             <Header/>

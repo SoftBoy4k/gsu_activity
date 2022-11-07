@@ -1,6 +1,6 @@
 import { Header } from "../../components/Header/Header"
 import { Link } from 'react-router-dom'
-import "./LoginPage.css"
+import "./LoginPage.scss"
 
 
 export const LoginPage = () => {

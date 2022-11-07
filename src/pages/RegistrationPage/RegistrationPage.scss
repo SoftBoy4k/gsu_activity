@@ -1,0 +1,88 @@
+.registration {
+    text-align: center;
+    margin-top: 5%;
+
+    > h2 {
+        font-size: 36px;
+        font-weight:400;
+    }
+
+    &-pages { 
+        display: flex;
+        max-width: 160px;
+        width: 100%;
+        margin: 3% auto;
+        list-style-type: none;
+        justify-content: space-around;
+
+        > .registration-page{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #7197F8;
+            border-radius: 50%;
+
+            &__active {
+                width: 40px;
+                height: 30px;
+                border-radius: 15px;
+                background-color: #7197F8;
+                color: white;
+            }
+        }
+    }
+
+    &-form {
+        background-color: #7197F8;
+        max-width: 400px;
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        &__field {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            > label {
+                max-width: 355px;
+                width: 100%;
+                height: 35px;
+                font-size: 16px;
+                font-weight: 400;
+                color: white;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+
+                > input {
+                    max-width: 240px;
+                    width: 100%;
+                    height: 35px;
+                    border: none;
+                    border-radius: 10px;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        &__btn {
+            width: 110px;
+            height: 48px;
+            border-radius: 10px;
+            border: none;
+            background-color: white;
+            font-size: 16px;
+            margin-bottom: 23px;
+            cursor: pointer;
+        }
+    }
+}

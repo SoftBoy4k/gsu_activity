@@ -1,6 +1,6 @@
 import { Header } from "../../components/Header/Header"
 import { SVG_ARROW } from "../../const"
-import "./HomePage.css"
+import "./HomePage.scss"
 import { HomePageSvgSelector } from "./HomePageSvgSelector"
 
 
