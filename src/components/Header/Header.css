@@ -20,6 +20,7 @@
     color: white;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .btn-user {
@@ -31,11 +32,13 @@
     font-weight: bold;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 .menu-icon > svg{
     width: 35px;
     height: 17.5px;
+    cursor: pointer;
 }
 
 /* .menu-icon > svg > line {
