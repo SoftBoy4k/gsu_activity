@@ -1,3 +1,4 @@
+import { Calendar } from "../../components/Calendar/Calendar"
 import { Header } from "../../components/Header/Header"
 import { SVG_ARROW } from "../../const"
 import "./HomePage.scss"
@@ -13,6 +14,7 @@ export const HomePage = () => {
                 <p>Узнать больше</p>
                 <HomePageSvgSelector svg = { SVG_ARROW }/>
             </div>
+            <Calendar/>
         </>
     )
 }
